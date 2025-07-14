@@ -8,7 +8,7 @@
 *   Applying second-order differencing also did not result in a stationary time series based on the ADF test (p-value = 0.424).
 *   Despite the lack of confirmed stationarity after differencing, ACF and PACF plots were generated for the second-order differenced series to help identify potential p and q parameters for the ARIMA model.
 *   An ARIMA model with order (1, 2, 1) was successfully built and trained on the `monthly_omzet` data.
-*   The ARIMA model forecasted the Omzet for the next three months as approximately \$2.43 billion (January 2024), \$2.64 billion (February 2024), and \$2.79 billion (March 2024).
+*   The ARIMA model forecasted the Omzet for the next three months as approximately \Rp2.43 billion (January 2024), \Rp2.64 billion (February 2024), and \Rp2.79 billion (March 2024).
 *   A visualization was successfully generated comparing the original monthly Omzet data with the forecasted values for the next three months.
 
 ### Insights or Next Steps
